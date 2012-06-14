@@ -82,16 +82,18 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: 'PT Sans', sans-serif;
+    color: white;
+
+    /* font-family: '', 'PT Sans', sans-serif; */
     min-height: 740px;
     
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));    
+    background: rgb(0, 0, 0);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(50, 50, 50)), to(rgb(0, 0, 0)));
+    background: -webkit-radial-gradient(rgb(50, 30, 30), rgb(0, 0, 0));
+    background:    -moz-radial-gradient(rgb(50, 30, 30), rgb(0, 0, 0));
+    background:     -ms-radial-gradient(rgb(50, 30, 30), rgb(0, 0, 0));
+    background:      -o-radial-gradient(rgb(50, 30, 30), rgb(0, 0, 0));
+    background:         radial-gradient(rgb(50, 30, 30), rgb(0, 0, 0));
 }
 
 /*
@@ -176,6 +178,7 @@ a:focus {
     box-sizing:         border-box;
 
     font-family: 'PT Serif', georgia, serif;
+    font-family:'ヒラギノ角ゴ StdN','Hiragino Kaku Mincho StdN','メイリオ',Meiryo,'ＭＳ Ｐゴシック',georgia, serif;
     font-size: 48px;
     line-height: 1.5;
 }
@@ -250,6 +253,28 @@ a:focus {
     3D positioning along Z axis.
 */
 
+b {
+    color: #ccffff;
+    display: block;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+small {
+    color:#ffcccc;
+    display: block;
+    font-size: smaller;
+}
+
+p {
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
 #title {
     padding: 0;
 }
@@ -267,9 +292,9 @@ a:focus {
     transform:         translateZ(20px);
 }
 
-#title h1 {
-    font-size: 190px;
-    
+.title h1 {
+    font-size: 120px;
+
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
@@ -311,6 +336,11 @@ a:focus {
 #tiny {
     width: 500px;
     text-align: center;
+}
+
+#require b {
+    font-size: 60px;
+    line-height: 60px;
 }
 
 /*
