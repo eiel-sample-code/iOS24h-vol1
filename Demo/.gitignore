@@ -1,0 +1,18 @@
+# xcode noise
+build/*
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.mode1
+*.mode1v3
+*.mode2v3
+xcuserdata
+Snapshots
+Pods
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
