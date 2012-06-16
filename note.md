@@ -151,7 +151,7 @@ Podfile
     platform :ios
     dependency "DCIntrospect"
     dependency "Color-Picker-for-iOS"
-    dependency "ALPageView", :git => 'https://github.com/eiel/ALPageViewDemo/'
+    dependency "ALPageView", :git => 'https://github.com/eiel/ALPageView.git'
 
 # 気になる点
 ライセンスはライブラリごとに違うのでチェックを。
