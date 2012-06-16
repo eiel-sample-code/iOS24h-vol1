@@ -1,0 +1,13 @@
+PODS:
+  - ALPageView (0.0.1)
+  - Color-Picker-for-iOS (0.0.1)
+  - DCIntrospect (0.0.1)
+  - JSONKit (1.5pre)
+  - Reachability (3.0.0)
+
+DEPENDENCIES:
+  - ALPageView (from `https://github.com/eiel/ALPageView.git')
+  - Color-Picker-for-iOS
+  - DCIntrospect
+  - JSONKit
+  - Reachability

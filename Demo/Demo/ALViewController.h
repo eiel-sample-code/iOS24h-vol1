@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ALPageView.h"
 
-@interface ALViewController : UIViewController
+@interface ALViewController : UIViewController <ALPageViewDelegate>
 
 @end

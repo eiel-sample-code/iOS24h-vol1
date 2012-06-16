@@ -1,0 +1,6 @@
+platform :ios
+dependency 'JSONKit'
+dependency 'Reachability'
+dependency "DCIntrospect"
+dependency "Color-Picker-for-iOS"
+dependency "ALPageView", :git => 'https://github.com/eiel/ALPageView.git'
